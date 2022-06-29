@@ -210,7 +210,7 @@ function moveEmployees(id_one, id_two){
        }) 
     enterprises[one_one].departments[one_two].employees_count = y  
     enterprises[two_one].departments[two_two].employees_count = x
-    console.log(enterprises[0].departments)
+    console.log(enterprises[one_one].departments)
     }
 
 moveEmployees(id_one, id_two)
